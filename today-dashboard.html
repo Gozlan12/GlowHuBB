@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +8,7 @@
         name="description"
         content="GlowHub daily dashboard with checklist, mood, mini game, and signup form."
     />
-    <link rel="stylesheet" href="css/glowhub-style.css" />
+    <link rel="stylesheet" href="glowhub-style.css" />
 </head>
 <body>
 <div class="page-wrapper">
@@ -40,7 +39,7 @@
             <h1 class="page-title">Today’s Glow Dashboard</h1>
             <p class="page-description">
                 Track your skincare steps, check in with your mood, and collect Glow
-                Coins for every gentle win. Later, this page will connect to your saved
+                Coins for every gentle win. Later, this page can connect to your saved
                 profile and database.
             </p>
         </header>
@@ -87,7 +86,8 @@
                             <div class="task-main-text">Evening cleanse &amp; treatment</div>
                             <div class="task-sub">
                                 Double cleanse, apply treatment serum based on your profile,
-                                and finish with night cream.</div>
+                                and finish with night cream.
+                            </div>
                             <div class="chip-row">
                                 <span class="task-tag">Skincare</span>
                                 <span class="task-tag">Evening</span>
@@ -129,9 +129,8 @@
                     </h3>
                     <p class="page-description">
                         In the full version, every completed step will give you Glow Coins.
-                        Later, you will be able to trade them for virtual rewards or
-                        product recommendations. For now, this visual shows how it will
-                        look.
+                        Later, you can trade them for virtual rewards or product
+                        recommendations. For now, this visual shows how it might look.
                     </p>
                     <div class="game-coins-row">
                         <div class="glow-coin" aria-hidden="true"></div>
@@ -150,7 +149,7 @@
 
                 <p class="page-description">
                     Choose the mood that feels closest to you today. Later, JavaScript
-                    will save it and adjust your plans if you are feeling low-energy.
+                    can save it and adjust your plans if you are feeling low-energy.
                 </p>
 
                 <div class="chip-row">
@@ -164,17 +163,19 @@
 
                 <h3 class="section-title">
                     Create your GlowHub profile
-                    <span class="badge">Saved to data.txt later</span>
+                    <span class="badge">Static demo</span>
                 </h3>
                 <p class="page-description">
-                    This mini form represents the user data that will be stored in
-                    <code>data.txt</code> using Node.js in the backend phase. For now, it
-                    is a pure HTML form.
-                </p><!-- later backend: store data in data.txt -->
+                    This mini form represents the user data that could be stored using a
+                    Node.js backend in the future. On GitHub Pages it stays as a pure
+                    HTML form.
+                </p>
+
+                <!-- action placeholder for future backend -->
                 <form
                     class="signup-form"
                     method="post"
-                    action="/backend/save-user"
+                    action="#"
                     aria-label="GlowHub signup form"
                 >
                     <div>
